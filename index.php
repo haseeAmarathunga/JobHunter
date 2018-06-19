@@ -43,7 +43,7 @@ session_start();
 	</form>
 	</div>
 	<center>
-	<a href="register.php"><button class="button2"><span>Register</span></button></a></center>
+	<a href="register.php"><button class="button2"><span>Register>></span></button></a></center>
 	
 	
 </body>
