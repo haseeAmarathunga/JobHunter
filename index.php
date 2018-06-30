@@ -10,20 +10,36 @@ session_start();
 <head>
 	<title>JobHunter</title>
 </head>
-<body>
+<body background="image/4.jpg">
+	
 	<div class="logo">
-	<img src="image/logo.png">
-	</div>
+	<a href="home.php"> <img src="image/logo.png"> </a>
+	</div> 
+
 	<div>
 	<center>
 	<h1><font color="2f3637">Welcome to</font> <font color="#ee2742">JobHunter</font></h1>
 	</center>
+	<center>
+	<div class="btn-group">
+	<a href="home.php"><button class="button">Home</button></a>
+	<a href="index.php"><button class="button">Seekers</button></a>
+	<a href="index.php"><button class="button">Employers</button></a>
+	<a href="about.php"><button class="button">About</button></a>
+	<a href="index.php"><button class="button">Login</button></a>
+	</div>
+	</center>
+
 	</div>
 	<div class="loginPanel">
 	<form method="POST" action="server.php">
 	<input type="text" name=username placeholder="username"><br>
 	<input type="password" name=password placeholder="password"><br>
-	<font color="ff0000">
+	</div>
+	
+	<center>	
+	<div>
+		<font color="ff0000">
 	<?php
 		if (isset($_SESSION["error"])){
 			$error=$_SESSION["error"];
@@ -31,6 +47,9 @@ session_start();
 		}
 	?>
 	</font>
+	</div>
+	</center>
+	
 	<br>
 	<center>
 	
@@ -43,7 +62,7 @@ session_start();
 	</form>
 	</div>
 	<center>
-	<a href="register.php"><button class="button2"><span>Register>></span></button></a></center>
+	<a href="register.php"><button class="button2"><span>Register</span></button></a></center>
 	
 	
 </body>

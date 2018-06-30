@@ -6,14 +6,19 @@
 <head>
 	<title>JobHunter</title>
 </head>
-<body>
+<body background="image/4.jpg">
+
 	<div class="logo">
-	<a href="home.php"> <img src="image/logo.png"> </a>
-	</div>
+	<a href="home.php"> <img src="image/logo.png"> </a></div>
+	
 	<div>
 	<center>
 	<h1><font color="2f3637">Welcome to</font> <font color="#ee2742">JobHunter</font></h1>
+	<br>
+	
 	</center>
+
+
 	</div>
 	
 	<!--
@@ -25,10 +30,13 @@
 	<center>
 	<div class="btn-group">
 	<a href="home.php"><button class="button">Home</button></a>
-	<a href="seekers.php"><button class="button">Seekers</button></a>
-	<a href="employers.php"><button class="button">Employers</button></a>
+	<a href="index.php"><button class="button">Seekers</button></a>
+	<a href="index.php"><button class="button">Employers</button></a>
 	<a href="about.php"><button class="button">About</button></a>
+	<a href="index.php"><button class="button">Login</button></a>
 	</div>
+	<img src="image/3.gif">
+
 	</center>
 	
 </body>
