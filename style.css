@@ -1,7 +1,30 @@
+body{
+  background-image: url('/image/4.jpg');
+}
 
+#header > div, #footer > div {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+#header .logo {
+	float: left;
+	margin-right: 20px;
+}
+#header .logo a {
+	background: url(../images/logo.png) no-repeat center top;
+	color: #000;
+	display: block;
+	font: 15px/30px 'Play';
+	height: 20px;
+	width: 76px;
+	padding-top: 68px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
 .logo{
-    width: %100;
+    width: 100;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,67 +43,66 @@
     border: none;
     color: white;
     padding: 15px 32px;
+    margin-bottom: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    float: center;
 }
+
 
 .btn-group .button:hover {
     background-color: #ee2742;
 }
 
-
 .button2 {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #2f3637;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 20px;
-  padding: 10px;
-  width: 120px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button2 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button2:hover span {
-  padding-right: 25px;
-}
-
-.button2:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.button2:hover {
-    background-color: #ee2742;
-}
-
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #2f3637;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button2:hover {
+      background-color: #ee2742;
+  }
 
 
 
 .welcome{
-    width: %100;
+    width: 100;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -88,13 +110,13 @@
     align-items: center;
     background-color: white;
     border: 5px;
-    border-color : #92a8d1
+    border-color : #92a8d1;
     padding: 25px;
     margin: 10px;
 
 }
 .loginPanel{
-    width: %100;
+    width: 100;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -102,7 +124,7 @@
     align-items: center;
     background-color: white;
     border: 5px;
-    border-color : #92a8d1
+    border-color : #92a8d1;
     padding: 25px;
     margin: 10px;
 
@@ -110,7 +132,7 @@
 
 
 input[type=text], select {
-    width: 100%;
+    width: 100;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -120,7 +142,7 @@ input[type=text], select {
     text-align: center; 
 }
 input[type=password], select {
-    width: 100%;
+    width: 100;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -129,3 +151,91 @@ input[type=password], select {
     box-sizing: border-box;
     text-align: center; 
 }
+
+.center {
+    margin:0 auto;
+    text-align: center;
+}
+
+.cat_title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+#redlight{
+    color: #ee2742;
+    font-size: 1.52em;
+
+}
+.container{
+    background-color: #f2f6ff;
+
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    
+}
+
+
+.catBox ul {
+    font-style: normal;
+    font-weight: normal;
+    float: left;
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
