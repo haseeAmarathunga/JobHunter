@@ -23,9 +23,6 @@
     float: center;
 }
 
-.btn-group .button:hover {
-    background-color: #ee2742;
-}
 
 
 .button2 {
@@ -43,33 +40,10 @@
   margin: 5px;
 }
 
-.button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-.button2 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
 
-.button2:hover span {
-  padding-right: 25px;
-}
 
-.button2:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.button2:hover {
-    background-color: #ee2742;
-}
+
 
 
 

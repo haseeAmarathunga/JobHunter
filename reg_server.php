@@ -1,6 +1,6 @@
 <?php
    //connecting database
-   $db = mysqli_connect("localhost","root", "","jobhunter") or die("Error connecting to database");
+   include("dbcon.php");
    session_start();
    
    $error = "";

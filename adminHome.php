@@ -5,27 +5,16 @@
 <link rel="stylesheet" type="text/css" href="style.css" >
 <head>
 	<title>JobHunter</title>
-
-<script src="js/angular.min.js">
-</script>
-
-
-
-
 </head>
-<body background="image/4.jpg" onload="startTime()">
-<h2><center><div id="txt"></div><center></h2>
-	<script src="js/app.js"></script>
+<body background="image/4.jpg">
+
 	<div class="logo">
 	<a href="home.php"> <img src="image/logo.png"> </a></div>
 	
 	<div>
 	<center>
-	<h1><font color="2f3637">Welcome to</font> <font color="#ee2742">JobHunter</font></h1>
+	<h1><font color="2f3637">Welcome</font> <font color="#ee2742">Admin</font></h1>
 	<br>
-
-
-
 	
 	</center>
 
@@ -40,13 +29,12 @@
 	-->
 	<center>
 	<div class="btn-group">
-	<a href="home.php"><button class="button">Home</button></a>
-	<a href="index.php"><button class="button">Seekers</button></a>
-	<a href="index.php"><button class="button">Employers</button></a>
-	<a href="about.php"><button class="button">About</button></a>
+	<a href="adminHome.php"><button class="button">Home</button></a>
+	<a href="seekerEdit.php"><button class="button">Seekers</button></a>
+	<a href="employeeEdit.php"><button class="button">Employers</button></a>
 	<a href="index.php"><button class="button">Login</button></a>
 	</div>
-	<img src="image/3.gif">
+	<img src="image/4.jpg" width=700 heigth=500>
 
 	</center>
 	

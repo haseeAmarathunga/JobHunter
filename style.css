@@ -52,9 +52,6 @@ body{
 }
 
 
-.btn-group .button:hover {
-    background-color: #ee2742;
-}
 
 .button2 {
     display: inline-block;
@@ -71,34 +68,8 @@ body{
     margin: 5px;
   }
   
-  .button2 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
   
-  .button2 span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button2:hover span {
-    padding-right: 25px;
-  }
-  
-  .button2:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  .button2:hover {
-      background-color: #ee2742;
-  }
-
+ 
 
 
 .welcome{
@@ -162,11 +133,7 @@ input[type=password], select {
     font-size: 1.5em;
 }
 
-#redlight{
-    color: #ee2742;
-    font-size: 1.52em;
 
-}
 .container{
     background-color: #f2f6ff;
 

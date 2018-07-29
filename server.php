@@ -1,6 +1,6 @@
 <?php
    //connecting database
-   $db = mysqli_connect("localhost","root", "","jobhunter") or die("Error connecting to database");
+   include("dbcon.php");
    session_start();
    $error = "";
    if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -37,9 +37,14 @@
             header("location:employersHome.php");
          }
          else{
-            $error = "Your Login Name or Password is invalid";
-            $_SESSION["error"]=$error;
-            header("location:index.php");
+               if($myusername=='admin' && $mypassword=='admin'){
+                  header("location:adminHome.php");
+               }
+            else{
+                  $error = "Your Login Name or Password is invalid";
+                  $_SESSION["error"]=$error;
+                  header("location:index.php");
+            }
          }
       }
    }

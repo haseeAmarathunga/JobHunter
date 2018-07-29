@@ -9,8 +9,12 @@ session_start();
 <link rel="stylesheet" type="text/css" href="style.css" >
 <head>
 	<title>JobHunter</title>
+
+	
 </head>
-<body background="image/4.jpg">
+<body background="image/4.jpg" onload="startTime()">
+<h2><center><div id="txt"></div><center></h2>
+<script src="js/app.js"></script>
 	
 	<div class="logo">
 	<a href="home.php"> <img src="image/logo.png"> </a>
