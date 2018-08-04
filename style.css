@@ -3,13 +3,13 @@ body{
 }
 
 #header > div, #footer > div {
-	width: 920px;
+	width: 922px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
 #header .logo {
 	float: left;
-	margin-right: 20px;
+	margin-right: 22px;
 }
 #header .logo a {
 	background: url(../images/logo.png) no-repeat center top;
