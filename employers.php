@@ -23,12 +23,6 @@
 
 	</div>
 	
-	<!--
-	<a href="home.php"><img src="image/home.png"></a>
-	<a href="employers.php"><img src="image/employers.png"></a>
-	<a href="vacancy.php"><img src="image/vacancy.png"></a>
-	<a href="about.php"><img src="image/about.png"></a>
-	-->
 	<center>
 	<div class="btn-group">
 	<a href="seekershome.php"><button class="button">Home</button></a>
@@ -75,7 +69,7 @@
 				}
 			} 
 			else {
-				echo "No Messages";
+				echo "not Messages yet.";
 			}
 		//}
 		
