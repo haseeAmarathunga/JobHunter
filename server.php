@@ -41,7 +41,7 @@
                   header("location:adminHome.php");
                }
             else{
-                  $error = "Your Login Name or Password is invalid";
+                  $error = "Login Name or Password is incorrect";
                   $_SESSION["error"]=$error;
                   header("location:index.php");
             }
