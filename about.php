@@ -35,7 +35,7 @@
 	<a href="about.php"><button class="button">About</button></a>
 	<a href="index.php"><button class="button">Login</button></a>
 
-    <h2>About Menu</h2>
+    <h2>About US</h2>
 	</div>
 	</center>
 	
